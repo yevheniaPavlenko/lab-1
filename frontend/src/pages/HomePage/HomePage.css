@@ -1,0 +1,56 @@
+.home-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 1rem;
+}
+
+.home-post {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: calc(30% - 5rem);
+}
+
+.home-posts-title {
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-posts-description {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-posts-body {
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.home-leave-comment {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home-leave-comment:hover {
+  cursor: pointer;
+}
+
+.home-leave-comment {
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

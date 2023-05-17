@@ -1,0 +1,50 @@
+.header-container {
+  max-width: 1250px;
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  background-color: blanchedalmond;
+}
+
+.logo {
+  font-size: 22px;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.list {
+  display: flex;
+}
+.item {
+  list-style: none;
+}
+
+.item a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.item button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  padding-left: 3px;
+}
+
+.item button:hover {
+  cursor: pointer;
+}
+
+.item a.active {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}

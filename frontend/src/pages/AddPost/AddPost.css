@@ -1,0 +1,41 @@
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 115px);
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding: 20px;
+
+  border-radius: 5px;
+  background-color: blanchedalmond;
+}
+
+.post-container input {
+  padding: 10px 5px;
+  outline: none;
+  width: 400px;
+  font-size: 18px;
+}
+
+.post-container textarea {
+  resize: none;
+  padding: 10px 5px;
+  outline: none;
+  width: 400px;
+  font-size: 18px;
+}
+
+.post-container button {
+  height: 30px;
+  font-size: 18px;
+}
+
+.post-container button:hover {
+  cursor: pointer;
+}

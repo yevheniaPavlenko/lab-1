@@ -1,0 +1,43 @@
+.authorization {
+  height: calc(100vh - 115px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.authorization-container {
+  padding: 20px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.authorization-container input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  width: 400px;
+}
+
+.authorization-container button {
+  font-size: 18px;
+}
+.authorization-container button:hover {
+  cursor: pointer;
+}
+
+.change-password {
+  margin-left: 10px;
+}
+
+.change-password-form {
+  display: none;
+  flex-direction: column;
+}
+
+.change-password-form.active {
+  display: flex;
+}

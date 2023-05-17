@@ -1,0 +1,30 @@
+.registration {
+  height: calc(100vh - 115px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.registration-container {
+  padding: 20px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.registration-container input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  width: 400px;
+}
+
+.registration-container button {
+  font-size: 18px;
+}
+.registration-container button:hover {
+  cursor: pointer;
+}

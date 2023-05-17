@@ -1,0 +1,31 @@
+.add-comments {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-comments input {
+  padding: 10px 5px;
+  font-size: 18px;
+  outline: none;
+}
+
+.add-comments button {
+  font-size: 16px;
+}
+
+.comments-list {
+  background-color: blanchedalmond;
+  width: 40%;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.comments-list div {
+  padding: 5px;
+}
+.comment {
+  border: 2px solid black;
+  margin-top: 2px;
+}
